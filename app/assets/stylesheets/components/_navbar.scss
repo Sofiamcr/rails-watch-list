@@ -1,0 +1,22 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+
+  a{
+    color: grey;
+    margin:10px 10px 10px 10px;
+    font-size: larger;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
